@@ -13,23 +13,23 @@
             <h1>Calculadora</h1>
             <p id="resultado"></p>
             <div id="botoes">
-                <input type="button" value="AC" id="botao">
-                <input type="button" value="%" id="botao">
-                <input type="button" value="/" id="botao"><br>
-                <input type="button" value="7" id="botao">
-                <input type="button" value="8" id="botao">
-                <input type="button" value="9" id="botao">
-                <input type="button" value="X" id="botao"><br>
-                <input type="button" value="4" id="botao">
-                <input type="button" value="5" id="botao">
-                <input type="button" value="6" id="botao">
-                <input type="button" value="-" id="botao"><br>
-                <input type="button" value="1" id="botao">
-                <input type="button" value="2" id="botao">
-                <input type="button" value="3" id="botao">
-                <input type="button" value="+" id="botao"><br>
-                <input type="button" value="0" id="botao">
-                <input type="button" value="," id="botao">
+                <input type="button" value="AC" id="botao" onclick="clean()">
+                <input type="button" value="%" id="botao" onclick="valor('%')">
+                <input type="button" value="/" id="botao" onclick="valor('/')"><br>
+                <input type="button" value="7" id="botao" onclick="valor(7)">
+                <input type="button" value="8" id="botao" onclick="valor(8)">
+                <input type="button" value="9" id="botao" onclick="valor(9)">
+                <input type="button" value="*" id="botao" onclick="valor('*')"><br>
+                <input type="button" value="4" id="botao" onclick="valor(4)">
+                <input type="button" value="5" id="botao" onclick="valor(5)">
+                <input type="button" value="6" id="botao" onclick="valor(6)">
+                <input type="button" value="-" id="botao" onclick="valor('-')"><br>
+                <input type="button" value="1" id="botao" onclick="valor(1)">
+                <input type="button" value="2" id="botao" onclick="valor(2)">
+                <input type="button" value="3" id="botao" onclick="valor(3)">
+                <input type="button" value="+" id="botao" onclick="valor('+')"><br>
+                <input type="button" value="0" id="botao" onclick="valor(0)">
+                <input type="button" value="," id="botao" onclick="valor(',')">
                 <input type="button" value="=" id="botao">
             </div>
             <h1>&copy; VictorNégre</h1>
