@@ -1,7 +1,7 @@
-function valor(num) {
+function valor() {
 
-    document.getElementById('resultado');
-    resultado.innerHTML += num; 
+    var res = document.getElementById('resultado');
+    //res.innerHTML += 
 }
 
 function clean() {
@@ -9,3 +9,4 @@ function clean() {
     var res = document.getElementById('resultado');
     res.innerHTML = ''
 }
+
