@@ -6,7 +6,7 @@
 
 #back {
 
-    background-image: linear-gradient(45deg, rgb(74, 217, 236), rgb(220, 20, 60));
+    background-image: linear-gradient(90deg, rgb(42, 45, 216), rgb(220, 20, 60));
     height: 100vh;
     color: white;
     font-style: italic;
@@ -47,4 +47,9 @@
     color: white;
     margin: 3px;
     border-radius: 50px;
+}
+
+.botaoMaior {
+
+    width: 4.3em !important;
 }

@@ -13,7 +13,7 @@
             <h1>Calculadora</h1>
             <p id="resultado"></p>
             <div id="botoes">
-                <input type="button" value="AC" id="botao" onclick="clean()">
+                <input type="button" value="AC" id="botao" class="botaoMaior" onclick="clean()">
                 <input type="button" value="%" id="botao" onclick="valor('%')">
                 <input type="button" value="/" id="botao" onclick="valor('/')"><br>
                 <input type="button" value="7" id="botao" onclick="valor('7')">
@@ -28,7 +28,7 @@
                 <input type="button" value="2" id="botao" onclick="valor('2')">
                 <input type="button" value="3" id="botao" onclick="valor('3')">
                 <input type="button" value="+" id="botao" onclick="valor('+')"><br>
-                <input type="button" value="0" id="botao" onclick="valor('0')">
+                <input type="button" value="0" id="botao" class="botaoMaior" onclick="valor('0')">
                 <input type="button" value="," id="botao" onclick="valor(',')">
                 <input type="button" value="=" id="botao" onclick="calculo()">
             </div>
@@ -38,3 +38,4 @@
 </body>
 <script src="Calculadora.js"></script>
 </html>
+
